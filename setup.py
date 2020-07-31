@@ -24,7 +24,7 @@ if not arch_x64:
 def python_requires():
     os = platform.system()
     if os == 'Linux':
-        return '~=3.8'
+        return '~=3.7'
     elif os == 'Windows':
         return '~=3.6'
     else:
